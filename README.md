@@ -1,18 +1,16 @@
-# SecureVault
+# SecureVault 🔐
 
-SecureVault is a full-stack secure web app built with:
-- Frontend: React + TypeScript
-- Backend: Node.js + Express
-- Database: PostgreSQL
+A secure full-stack vault application.
 
-## Security Goals
-- Authentication & authorization (JWT)
-- Password hashing (Argon2)
-- Encryption at rest (AES-256-GCM)
+## Tech Stack
+- React + TypeScript
+- Node.js + Express
+- PostgreSQL
+
+## Security Focus
+- Authentication & authorization
+- Encryption at rest and in transit
+- Secure API design
 - Audit logging
-- Rate limiting & secure headers
 
-## Project Structure
-- /client  -> React app
-- /server  -> Express API
-- /docs    -> architecture, threat model, notes
+This project demonstrates full-stack development with real-world security practices.
