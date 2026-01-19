@@ -1,3 +1,20 @@
-﻿node_modules/
+# dependencies
+node_modules/
+
+# env files
 .env
+.env.*
+
+# build output
 dist/
+build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+.vscode/
