@@ -1,13 +1,14 @@
 import { useState } from "react";
+import "./Login.css";
 export default function Login(){
    const[email,setEmail]=useState("");
    const[password,setPassword]=useState("");
    const[error, setError] =useState("");
-   const [loading, setLoading] =useState(false);
+   const[loading, setLoading] =useState(false);
 
 
    function handleLogin(){
-      
+
       if (!email || !password) {
          setError("Email and password are required");
          return;
