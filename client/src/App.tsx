@@ -1,7 +1,9 @@
-import { BrowserRouter, Routes, Route, Navigate, Link} from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link} from "react-router-dom";
+import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Notfound from "./pages/NotFound";
+import Vault from "./pages/Vault";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
@@ -13,14 +15,16 @@ export default function App() {
 
     
       <Routes>
-         {/* Redirect from home page to login */} {/* <<<<<   JSX needs special comments */}
-        <Route path="/" element={<Navigate to="/login" replace />} /> 
-        { /* login page*/ }
+         {/* home page */} {/* <<<<<   JSX needs special comments */}
+        <Route path="/" element={<Home />} /> 
+        {/* Auth */}
         <Route path="/login" element={<Login />} />
-        {/* Register page*/}
         <Route path="/register" element={<Register />} />
-        {/* NotFound page */}
-        <Route path="*" element={<Notfound />} />
+
+        {/* Valut page*/}
+        <Route path="/vault" element={<Vault />} />
+        {/* NotFound page (404) */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
