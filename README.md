@@ -1,6 +1,8 @@
-# SecureVault 🔐
+## 📌 What is SecureVault?
 
-A secure full-stack vault application focused on modern security practices.
+ SecureVault is a secure encrypted vault application designed to demonstrate real-world security practices in full-stack development. Users can register, authenticate, and store sensitive information that is encrypted before being saved to the database.
+
+The project focuses heavily on authentication security, data protection, and clean system architecture, making it suitable for showcasing cybersecurity-aware software engineering skills.
 
 ## Tech Stack
 - React + TypeScript
