@@ -1,5 +1,5 @@
 const API_BASE =
-  import.meta.env.VITE_API_URL?.trim() || "http://localhost:5000";
+  import.meta.env.VITE_API_URL?.trim() || "http://localhost:5173";
 
 function getToken() {
   return localStorage.getItem("token"); // must match my login key
