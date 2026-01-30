@@ -213,11 +213,7 @@ export default function Vault() {
                   <button className="vault-icon-btn" onClick={() => openEdit(item.id)} disabled={busy}>
                     Edit
                   </button>
-                  <button
-                    className="vault-icon-btn vault-danger"
-                    onClick={() => handleDelete(item.id)}
-                    disabled={busy}
-                  >
+                  <button className="vault-icon-btn vault-danger" onClick={() => handleDelete(item.id)} disabled={busy} >
                     Delete
                   </button>
                 </div>
