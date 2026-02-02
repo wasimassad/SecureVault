@@ -41,7 +41,7 @@ export default function Home() {
       <section className="steps">
         <h2>How It Works</h2>
         <ol>
-          <li>Create an account</li>
+          <li>Create an account with us</li>
           <li>Login securely</li>
           <li>Store private notes safely</li>
         </ol>
