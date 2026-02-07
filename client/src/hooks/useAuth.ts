@@ -38,7 +38,7 @@ export function useAuth() {
     const data = await res.json();
 
     if (!res.ok) {
-      throw new Error(data.message || "Login failed");
+      throw new Error(data.message || "Login failed!");
     }
 
     setToken(data.token);
