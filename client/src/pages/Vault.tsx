@@ -243,7 +243,7 @@ export default function Vault() {
                 <>
                   {formError && <p className="vault-error">{formError}</p>}
 
-                  <label className="vault-label">Title.</label>
+                  <label className="vault-label">Title</label>
                   <input
                     className="vault-input"
                     value={title}
