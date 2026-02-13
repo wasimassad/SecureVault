@@ -17,7 +17,7 @@ export default function Vault() {
 
   const [mode, setMode] = useState<Mode>("none");
   const [selectedId, setSelectedId] = useState<string | null>(null);
-   const [detail, setDetail] = useState<NoteDetail | null>(null); // {*I have to check this part make a value*}
+   const [detail, setDetail] = useState<NoteDetail | null>(null); 
 
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
