@@ -72,7 +72,7 @@ export default function Vault() {
       setTitle(data.title);
       setContent(data.content);
     } catch (e: any) {
-      setError(e?.message || "Failed to open");
+      setError(e?.message || "Failed to open!");
       setMode("none");
     } finally {
       setBusy(false);
