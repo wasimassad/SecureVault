@@ -6,7 +6,7 @@ type User = {
   name?: string;
 };
 
-const TOKEN_KEY = "sv_token";
+const TOKEN_KEY = " sv_token";
 const USER_KEY = "sv_user";
 
 export function useAuth() {
